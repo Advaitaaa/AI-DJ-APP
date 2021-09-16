@@ -1,8 +1,3 @@
-body
-{
-    background-size: cover;
-}
-
 .heading 
 {
     font-size: 23px;
@@ -16,29 +11,24 @@ body
     color: black;
 }
 
-.div_speed
+body
 {
-    float: left;
+    background-size: cover;
 }
 
-.div_speed_img, .div_volume_img
+.div_songname
 {
-    width: 200px;
-    border-radius: 100px;
+    float: center;
 }
 
-#speed , #volume
+
+#songname
 {
     font-size: 23px;
     margin: 15px;
 }
 
-.div_volume
-{
-    float: right;
-}
-
-.play_button, .stop_button 
+.play_button
 {
     width: 130px;
     font-size: 25px;
@@ -46,7 +36,8 @@ body
 
 canvas
 {
+    border: 5px solid black;
     border-radius: 20px;
-    border: 5px black solid;
 }
+
 
